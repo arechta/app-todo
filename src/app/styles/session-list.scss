@@ -1,0 +1,173 @@
+@import "global";
+
+/* == Main style == */
+.card {
+	background-color: #FFFFFF;
+	.card-header {
+		border-bottom: none !important;
+		background-color: inherit !important;
+	}
+	// .card-body {
+	// }
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: $danger;
+}
+.session-container {
+	box-shadow: 0px 10px 40px 35px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	overflow: hidden;
+	// min-height: 626px;
+}
+
+.session-welcome {
+	padding: 3%;
+	background: #f4fdf6;
+	h3 {
+		text-align: center;
+		color: #333;
+	}
+	.session-illust {
+		margin: 2rem 0;
+		width: 100%;
+		height: 250px;
+		background: url(~Assets/image/illustrations/undraw-two_factor_authentication.svg) no-repeat center top;
+		background-size: contain;
+		background-position: center;
+		display: inline-block;
+	}
+}
+.session-info {
+	display: flex;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-weight: set_weight("medium");
+	font-style: italic;
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 20px;
+		height: 2px;
+		margin-right: 8px;
+		background: $primary;
+	}
+}
+.session-logo img {
+	width: 250px;
+}
+.session-block {
+	font-family: "Poppins", sans-serif;
+	padding: 5%;
+	.session-devices {
+		list-style: none;
+		max-height: 300px;
+		.device-item {
+			position: relative;
+			border: 1.5px solid #CACACA;
+			border-radius: 0.25rem !important;
+			background-color: #F6FFF8;
+			box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+			transition: all ease-in-out 200ms;
+			margin-bottom: 1rem;
+			margin-left: 0px !important;
+			margin-right: 0px !important;
+			overflow: hidden;
+			max-height: 300px;
+			.title {
+				margin-bottom: 10px;
+			}
+			&.slideUp {
+				max-height: 0px !important;
+				border-width: 0px;
+			}
+			&.stt-me {
+				.icon-session:after {
+					content: '(ANDA) MASUK' !important;
+					background-color: $secondary;
+					white-space: nowrap;
+				}
+				.clear-session {
+					display: none;
+					opacity: 0;
+					width: 0px !important;
+					height: 0px !important;
+					margin: 0px !important;
+					padding: 0px !important;
+					border: 0px !important;
+				}
+			}
+			&.stt-current > .icon-session:after {
+				content: 'ACTIVE SESSION (CURRENT)!!' !important;
+				background-color: $info;
+				white-space: pre-wrap;
+			}
+			&.stt-process > .icon-session:after {
+				content: 'ACTIVE RUNNING PROCESS!!' !important;
+				background-color: $purple;
+				white-space: pre-wrap;
+			}
+			.icon-session {
+				position: absolute;
+				top: 50%;
+				right: -18px;
+				transform: translateY(-50%);
+				&:after {
+					content: 'LOGIN ON OTHER DEVICES!!';
+					font-size: .7rem;
+					font-weight: set_weight('semibold');
+					letter-spacing: 1px;
+					color: #FFFFFF;
+					background-color: $bg-sidebar;
+					position: absolute;
+					top: 40%;
+					left: 48%;
+					min-width: 120px;
+					white-space: wrap;
+					word-wrap: normal;
+					word-break: keep-all;
+					transform: translateX(-50%) rotate(30deg);
+					padding: 5px 10px;
+					opacity: .8;
+				}
+				.iconify {
+					transform: scaleX(-1);
+					color: rgba(0, 0, 0, 0.2);
+					opacity: 0.2;
+					font-size: 180px;
+					width: 180px;
+				}
+			}
+			.content {
+				position: relative;
+				.detail {
+					font-size: .8rem;
+					list-style: none;
+					padding: 0;
+					margin: 0;
+				}
+			}
+			.clear-session {
+				position: relative;
+				margin-left: 2px;
+				margin-right: 2px;
+				margin-bottom: 3px;
+			}
+			&:hover {
+				// color: #FFFFFF;
+				background-color: #BCFFCB;
+				border-color: #5f5f5f;
+				box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+			}
+		}
+	}
+	.session-actions {
+		font-size: .8rem !important;
+		button {
+			font-size: inherit !important;
+		}
+	}
+}

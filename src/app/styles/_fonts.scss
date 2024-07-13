@@ -1,0 +1,51 @@
+///// Fonts Family /////
+// Roboto: Thin, Light, Regular, Medium, Bold, Black (+italic styles)
+@font-face { font-family: Roboto; font-weight: 100; font-style: normal; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Thin.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 100; font-style: italic; font-display: swap; src: url("~Assets/font/Roboto/Roboto-ThinItalic.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 300; font-style: normal; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Light.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 300; font-style: italic; font-display: swap; src: url("~Assets/font/Roboto/Roboto-LightItalic.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Regular.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 400; font-style: italic; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Italic.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 500; font-style: normal; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Medium.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 500; font-style: italic; font-display: swap; src: url("~Assets/font/Roboto/Roboto-MediumItalic.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 700; font-style: normal; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Bold.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 700; font-style: italic; font-display: swap; src: url("~Assets/font/Roboto/Roboto-BoldItalic.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 900; font-style: normal; font-display: swap; src: url("~Assets/font/Roboto/Roboto-Black.ttf") format("truetype"); }
+@font-face { font-family: Roboto; font-weight: 900; font-style: italic; font-display: swap; src: url("~Assets/font/Roboto/Roboto-BlackItalic.ttf") format("truetype"); }
+// Poppins: Light, Regular, Medium, Bold (+italic styles)
+@font-face { font-family: Poppins; font-weight: 300; font-style: normal; font-display: swap; src: url("~Assets/font/Poppins/Poppins-Light.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 300; font-style: italic; font-display: swap; src: url("~Assets/font/Poppins/Poppins-LightItalic.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/Poppins/Poppins-Regular.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 400; font-style: italic; font-display: swap; src: url("~Assets/font/Poppins/Poppins-Italic.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 500; font-style: normal; font-display: swap; src: url("~Assets/font/Poppins/Poppins-Medium.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 500; font-style: italic; font-display: swap; src: url("~Assets/font/Poppins/Poppins-MediumItalic.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 600; font-style: normal; font-display: swap; src: url("~Assets/font/Poppins/Poppins-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 600; font-style: italic; font-display: swap; src: url("~Assets/font/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 700; font-style: normal; font-display: swap; src: url("~Assets/font/Poppins/Poppins-Bold.ttf") format("truetype"); }
+@font-face { font-family: Poppins; font-weight: 700; font-style: italic; font-display: swap; src: url("~Assets/font/Poppins/Poppins-BoldItalic.ttf") format("truetype"); }
+// Inter: Light, Regular, Medium, SemiBold, Bold
+@font-face { font-family: Inter; font-weight: 300; font-style: normal; font-display: swap; src: url("~Assets/font/Inter/Inter-Light.ttf") format("truetype"); }
+@font-face { font-family: Inter; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/Inter/Inter-Regular.ttf") format("truetype"); }
+@font-face { font-family: Inter; font-weight: 500; font-style: normal; font-display: swap; src: url("~Assets/font/Inter/Inter-Medium.ttf") format("truetype"); }
+@font-face { font-family: Inter; font-weight: 600; font-style: normal; font-display: swap; src: url("~Assets/font/Inter/Inter-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: Inter; font-weight: 700; font-style: normal; font-display: swap; src: url("~Assets/font/Inter/Inter-Bold.ttf") format("truetype"); }
+// Quicksand: Light, Regular, Medium, SemiBold, Bold
+@font-face { font-family: Quicksand; font-weight: 300; font-style: normal; font-display: swap; src: url("~Assets/font/Quicksand/Quicksand-Light.ttf") format("truetype"); }
+@font-face { font-family: Quicksand; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/Quicksand/Quicksand-Regular.ttf") format("truetype"); }
+@font-face { font-family: Quicksand; font-weight: 500; font-style: normal; font-display: swap; src: url("~Assets/font/Quicksand/Quicksand-Medium.ttf") format("truetype"); }
+@font-face { font-family: Quicksand; font-weight: 600; font-style: normal; font-display: swap; src: url("~Assets/font/Quicksand/Quicksand-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: Quicksand; font-weight: 700; font-style: normal; font-display: swap; src: url("~Assets/font/Quicksand/Quicksand-Bold.ttf") format("truetype"); }
+// Space Grotesk: Light, Regular, Medium, SemiBold, Bold
+@font-face { font-family: 'Space Grotesk'; font-weight: 300; font-style: normal; font-display: swap; src: url("~Assets/font/SpaceGrotesk/SpaceGrotesk-Light.ttf") format("truetype"); }
+@font-face { font-family: 'Space Grotesk'; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/SpaceGrotesk/SpaceGrotesk-Regular.ttf") format("truetype"); }
+@font-face { font-family: 'Space Grotesk'; font-weight: 500; font-style: normal; font-display: swap; src: url("~Assets/font/SpaceGrotesk/SpaceGrotesk-Medium.ttf") format("truetype"); }
+@font-face { font-family: 'Space Grotesk'; font-weight: 600; font-style: normal; font-display: swap; src: url("~Assets/font/SpaceGrotesk/SpaceGrotesk-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: 'Space Grotesk'; font-weight: 700; font-style: normal; font-display: swap; src: url("~Assets/font/SpaceGrotesk/SpaceGrotesk-Bold.ttf") format("truetype"); }
+// Montserrat: Light, Regular, Medium, SemiBold, Bold
+@font-face { font-family: 'Montserrat'; font-weight: 300; font-style: normal; font-display: swap; src: url("~Assets/font/Montserrat/Montserrat-Light.ttf") format("truetype"); }
+@font-face { font-family: 'Montserrat'; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/Montserrat/Montserrat-Regular.ttf") format("truetype"); }
+@font-face { font-family: 'Montserrat'; font-weight: 500; font-style: normal; font-display: swap; src: url("~Assets/font/Montserrat/Montserrat-Medium.ttf") format("truetype"); }
+@font-face { font-family: 'Montserrat'; font-weight: 600; font-style: normal; font-display: swap; src: url("~Assets/font/Montserrat/Montserrat-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: 'Montserrat'; font-weight: 700; font-style: normal; font-display: swap; src: url("~Assets/font/Montserrat/Montserrat-Bold.ttf") format("truetype"); }
+// Gallery Modern: Regular
+@font-face { font-family: 'Gallery Modern'; font-weight: 400; font-style: normal; font-display: swap; src: url("~Assets/font/GalleryModern/GalleryModern-Regular.otf") format("opentype"); }

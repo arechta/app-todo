@@ -1,0 +1,126 @@
+@import 'global';
+
+.alert {
+	max-height: 0px;
+	padding: 0px 1rem;
+	transition: ease-in-out 150ms;
+	transition-property: max-height, padding, opacity;
+	opacity: 0;
+	&.show {
+		opacity: 1;
+		max-height: 300px;
+		padding: 1rem 1rem;
+	}
+}
+
+.navbar {
+	height: 80px;
+	background-color: white;
+	position: fixed;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.navbar-brand {
+	@extend .fn-s2-semibold; // Montserrat
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	&:hover {
+		color: white;
+	}
+}
+
+.cardview {
+	width: 485px;
+	height: fit-content;
+	min-height: 0px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	transition: ease-in-out 300ms;
+	transition-property: height, min-height, max-height;
+	#confirmItsYou {
+		.btn-send-code {
+			position: relative;
+			border: none;
+			outline: none;
+			background-color: transparent;
+			font-size: inherit;
+			color: $primary;
+			margin: 0;
+			padding: 0;
+			&:disabled, &.disabled {
+				&:after {
+					background-color: $danger;
+					width: 100%;
+				}
+			}
+			&:not(.disabled):not(:disabled):hover:after {
+				width: 100%;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				width: 0px;
+				height: 1px;
+				border-radius: 1px;
+				background-color: $primary;
+				left: 0px;
+				bottom: -1px;
+				transition: ease-in-out 300ms;
+				transition-property: width, background-color;
+			}
+		}
+		.switch-option {
+			min-height: 0px;
+			transition: ease-in-out 300ms;
+			transition-property: height, min-height, max-height;
+		}
+	}
+	.btn-cancel {
+		position: relative;
+		display: inline-block;
+		border: none;
+		outline: none;
+		background-color: rgba(0,0,0,0);
+		@extend .fnt-style1;
+		font-weight: set_weight('semibold');
+		font-size: 13px;
+		color: $danger;
+		line-height: 1;
+		text-align: center;
+		&:hover:after {
+			width: 100%;
+		}
+		&:after {
+			content: '';
+			display: block;
+			width: 0%;
+			height: 1px;
+			background-color: $danger;
+			left: 0px;
+			bottom: -1px;
+			transition: ease-in-out 300ms;
+			transition-property: width;
+		}
+	}
+	.btn-complete {
+		@extend .btn;
+		@extend .btn-blue;
+		@extend .fnt-style1;
+		font-size: 13px;
+		font-weight: set_weight('semibold');
+		display: block;
+		width: 100%;
+	}
+}
+
+.lottie-animation {
+	display: block;
+	width: 100%;
+	padding: 0px 4rem;
+}
+

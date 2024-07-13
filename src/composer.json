@@ -1,0 +1,33 @@
+{
+    "name": "app/todo",
+    "type": "project",
+	"license": "proprietary",
+    "autoload": {
+		"psr-4": {
+			"APP\\": "app/"
+        }
+    },
+    "authors": [
+		{
+			"name": "Asphira Andreas",
+            "email": "arechta.dev@gmail.com"
+        }
+    ],
+	"require": {
+		"phpmailer/phpmailer": "^6.6",
+		"jenssegers/agent": "^2.6",
+        "ifsnop/mysqldump-php": "^2.10",
+        "ramsey/uuid": "^4.2",
+        "endroid/qr-code": "^4.3",
+        "codex-team/editor.js": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.25",
+        "nick322/secure-spreadsheet": "^1.0",
+        "firebase/php-jwt": "^6.4",
+        "spatie/backtrace": "^1.4",
+        "filp/whoops": "^2.15",
+        "guzzlehttp/guzzle": "^7.8"
+	},
+	"config": {
+		"platform-check": false
+	}
+}

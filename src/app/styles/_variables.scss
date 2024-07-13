@@ -1,0 +1,177 @@
+// Override bootstrap variables
+$primary: #145CA4;
+$secondary: #3494D3;
+$success: #18C373;
+$danger: #FF6161;
+$warning: #FFC107;
+$info: #0FCAF0;
+$purple: #6F42C1;
+$blue: #00A8E8;
+$orange: #FF900E;
+$gray: #808080;
+$light: #ABD5FF;
+$fg-color: #F0F3FF;
+$fg-color-dark: #767676;
+$bg-color: #090f19;
+$bg-sidebar: #527159;
+
+$form-grid-gutter-width: 20px;
+$enable-responsive-font-sizes: true;
+$enable-negative-margins: true;
+$tooltip-max-width: 350px;
+$tooltip-padding-x: 16px;
+$tooltip-padding-y: 10px;
+// $form-floating-height:            1rem;
+// $form-floating-padding-x:         0px;
+// $form-floating-padding-y:         1rem;
+// $form-floating-input-padding-t:   1.625rem;
+// $form-floating-input-padding-b:   .625rem;
+// $form-floating-label-opacity:     .65;
+// $form-floating-label-transform:   scale(.85) translateY(-1.8rem) translateX(.25rem);
+// $form-floating-transition:        opacity .1s ease-in-out, transform .1s ease-in-out;
+
+// Declaring new variables
+$font_weight: (
+  "thin": 100,
+  "light": 300,
+  "regular": 400,
+  "medium": 500,
+  "semibold": 600,
+  "bold": 700,
+  "black": 900,
+);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "info": $info,
+  "purple": $purple,
+  "blue": $blue,
+  "light": $light,
+  "orange": $orange,
+  "gray": $gray,
+  "dark": #212529,
+);
+$form-input_bg-color: #FBFBFB; // Color of (form-input) background
+$form-input_bd-color: #EEE; // Color of (form-input) border
+$placeholder-color: #B3B3B3;
+
+/* Generate different colors class */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/utilities";
+
+// Generating All Shades of Gray
+@each $key, $value in $grays {
+  .bg-gray-#{$key} {
+    background-color: $value !important;
+  }
+  .text-gray-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Blues
+@each $key, $value in $blues {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Purples
+@each $key, $value in $purples {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Indigos
+@each $key, $value in $indigos {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Pinks
+@each $key, $value in $pinks {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Reds
+@each $key, $value in $reds {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Oranges
+@each $key, $value in $oranges {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Yellows
+@each $key, $value in $yellows {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Greens
+@each $key, $value in $greens {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Teals
+@each $key, $value in $teals {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}
+
+// Generating All Shades of Cyans
+@each $key, $value in $cyans {
+  .bg-#{$key} {
+    background-color: $value !important;
+  }
+  .text-#{$key} {
+    color: $value !important;
+  }
+}

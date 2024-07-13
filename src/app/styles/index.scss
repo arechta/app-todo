@@ -1,0 +1,138 @@
+@import 'global';
+
+.navbar {
+	height: 80px;
+	background-color: white;
+}
+
+.container-fluid {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.navbar-brand {
+	@extend .fn-s2-semibold; //Montserrat
+	color: #145ca4;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.navbar-nav {
+	@extend .fn-s1-semibold; //Inter
+	font-size: 12px;
+}
+
+// Head Content
+.head-content {
+	background-color: white;
+	margin-top: -5rem;
+	height: calc(512px - 2rem);
+}
+
+.head-title {
+	@extend .fn-s3-semibold; //Poppins
+	color: black;
+	font-size: 48px;
+	text-align: center;
+}
+
+.head-desc {
+	@extend .fn-s1-light; //Inter
+	font-size: 18px;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+// Body Content
+.body-content {
+	background-color: black;
+	height: 480px;
+	position: relative;
+}
+
+.body-content video {
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+.background-video {
+	background-color: black;
+	position: absolute;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+// Foot Content
+.foot-content {
+	background-color: white;
+	margin-top: -8rem;
+	height: 1440px;
+}
+
+.foot-items {
+	width: 75%;
+}
+
+.foot-items img {
+	text-align: center;
+}
+
+div.row {
+	margin-bottom: 4rem;
+}
+
+.foot-title h1 {
+	@extend .fn-s3-semibold; //Poppins
+	color: black;
+	font-size: 42px;
+	margin-bottom: 8rem;
+	text-align: center;
+}
+
+.foot-title hr {
+	margin-top: 8rem;
+	width: 50px;
+}
+
+// Footer
+.footer-title {
+	@extend .fn-s3-bold; //Poppins
+	font-size: 48px;
+	margin-bottom: 14rem;
+}
+
+.title {
+	@extend .fn-s1-bold; //Inter
+	font-size: 16px;
+}
+
+// Animation Navbar
+
+.navbar-nav li a {
+	position: relative;
+}
+
+.navbar-nav li a:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #145ca4;
+	height: 2px;
+}
+
+.navbar-nav li a:hover:after {
+	width: 100%;
+}
+
+.navbar-nav li a:hover:after {
+	width: 100%;
+}

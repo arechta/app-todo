@@ -65,7 +65,7 @@ use APP\includes\classes\EncryptionVW;
 								<img src="./asset/image/icons/mdi_filter.svg" alt="Icons Filter" />
 							</button>
 						</div>
-						<div class="list-head-filter d-none">
+						<div class="list-head-filter">
 							asdasdasdasdadasdas
 						</div>
 					</div>

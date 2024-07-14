@@ -78,6 +78,11 @@ module.exports = {
 			asset: true,
 		},
 		{
+			from: 'asset/image/wallpaper',
+			to: 'assets/image/wallpaper',
+			// asset: true,
+		},
+		{
 			from: 'uploads',
 			to: 'uploads',
 		},

@@ -377,19 +377,19 @@ b, strong, u, i, h1, h2, h3, h4, h5, h6, p, span, label, small {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	$bg-color: rgba(#DEDEDE, 0.5);
-	background: $bg-color !important;
-	border-radius: 0;
+	background: #202020 !important;
+	border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	cursor: pointer;
-	background-color: $primary !important;
+	// background-color: $dark !important;
+	background-color: lighten($dark, 10%);
 	// border: solid 3px $bg-color;
-	border: solid 2px #FFFFFF;
+	border: solid 1px $gray-700;
 	border-radius: 5px;
-	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent) !important;
+	// background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent) !important;
 }
 
 [data-scrollbar] {

@@ -44,6 +44,118 @@ use APP\includes\classes\EncryptionVW;
 		<title><?= $APP_CORE['app_name']; ?> | {{ htmlWebpackPlugin.options.title }}</title>
 	</head>
 	<body>
+		<nav id="navbar" class="navbar">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#!">
+					<img src="./asset/image/logo/logo-white.svg" alt="Logo"/>
+					<p class="navbar-brand-title">Todo List</p>
+				</a>
+			</div>
+		</nav>
+		<section id="content" class="page-content">
+			<section class="list-wrapper">
+				<div class="list-item">
+					<div class="list-head col-auto">
+						<div class="list-head-wrapper">
+							<div class="list-head-title">
+								<h4 class="list-title">Test</h4>
+								<input type="text" value="Test" class="input-list-title d-none" />
+							</div>
+							<button class="btn btn-action-filter">
+								<img src="./asset/image/icons/mdi_filter.svg" alt="Icons Filter" />
+							</button>
+						</div>
+						<div class="list-head-filter d-none">
+							asdasdasdasdadasdas
+						</div>
+					</div>
+					<div class="list-body col">
+						<section class="card-wrapper">
+							<div class="card-item">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum doloribus, earum accusamus voluptates aperiam, natus perspiciatis tempora enim voluptate suscipit fugiat. Adipisci ab quo quaerat aut ipsum quae nisi numquam!
+								Harum animi culpa, fugit ullam rerum asperiores. Aspernatur ipsam, dolorum tempore, officia rem sit tempora maiores architecto molestiae incidunt deserunt maxime quo natus consectetur quae, dolore quos eum hic aliquam.
+							</div>
+							<div class="card-item">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum doloribus, earum accusamus voluptates aperiam, natus perspiciatis tempora enim voluptate suscipit fugiat. Adipisci ab quo quaerat aut ipsum quae nisi numquam!
+								Harum animi culpa, fugit ullam rerum asperiores. Aspernatur ipsam, dolorum tempore, officia rem sit tempora maiores architecto molestiae incidunt deserunt maxime quo natus consectetur quae, dolore quos eum hic aliquam.
+								Iste repudiandae necessitatibus consectetur! Eos sapiente ipsa, eaque illum aliquam voluptas esse doloribus debitis similique ex quod! Repellendus quos repudiandae recusandae ratione provident quod voluptatum fugiat, molestias, commodi vel explicabo?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iste illum? Repudiandae consequatur expedita labore asperiores perspiciatis laboriosam similique deserunt reiciendis, quae architecto dolore, non sapiente fugiat sed, omnis veritatis!
+								Perferendis dolorem nam, eos voluptate dolore molestiae repellat temporibus quis ab in incidunt illum eaque perspiciatis, eligendi ducimus eum est, dolor excepturi. Doloribus accusamus quisquam cum expedita sit illum praesentium?
+								Officia eligendi dolores quaerat saepe earum impedit libero, aut omnis officiis in excepturi dolorem porro repellat perferendis ipsum, quod expedita non, doloremque numquam nemo quisquam praesentium iusto amet beatae? Quos.
+							</div>
 
+						</section>
+					</div>
+					<div class="list-foot col-auto">
+						<div class="card-input-wrapper d-none">
+							<textarea type="text" value="Test" class="input-card-title" placeholder="Enter a title for this card…"></textarea>
+							<div class="row w-100 gx-1">
+								<div class="col-auto">
+									<button class="btn btn-success btn-card-add">Add card</button>
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-card-cancel">
+										<img src="./asset/image/icons/ep_close-bold.svg" alt="Icons Close" />
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="card-trigger-wrapper">
+							<button class="btn btn-action-add">
+								<img src="./asset/image/icons/mingcute_add-fill.svg" alt="Icons Add"/>
+								<p class="fnt-style1">Add a card</p>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="list-item">
+					<div class="list-head col-auto">
+						<div class="list-head-wrapper">
+							<div class="list-head-title">
+								<h4 class="list-title">Test</h4>
+								<input type="text" value="Test" class="input-list-title d-none" />
+							</div>
+							<button class="btn btn-action-filter">
+								<img src="./asset/image/icons/mdi_filter.svg" alt="Icons Filter" />
+							</button>
+						</div>
+						<div class="list-head-filter d-none">
+							asdasdasdasdadasdas
+						</div>
+					</div>
+					<div class="list-body col">
+						<section class="card-wrapper">
+						</section>
+					</div>
+					<div class="list-foot col-auto">
+						<div class="card-input-wrapper">
+							<textarea type="text" value="Test" class="input-card-title" placeholder="Enter a title for this card…"></textarea>
+							<div class="row w-100 gx-1">
+								<div class="col-auto">
+									<button class="btn btn-success btn-card-add">Add card</button>
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-card-cancel">
+										<img src="./asset/image/icons/ep_close-bold.svg" alt="Icons Close" />
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="card-trigger-wrapper d-none">
+							<button class="btn btn-action-add">
+								<img src="./asset/image/icons/mingcute_add-fill.svg" alt="Icons Add"/>
+								<p class="fnt-style1">Add a card</p>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="list-item is-trigger">
+					<div class="add-trigger">
+						<img src="./asset/image/icons/mingcute_add-fill.svg" alt="Icons Add"/>	
+						<p class="fnt-style1">Add another list</p>
+					</div>
+				</div>
+			</section>
+		</section>
 	</body>
 </html>
